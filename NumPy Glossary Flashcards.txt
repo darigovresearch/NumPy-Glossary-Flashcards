@@ -39,7 +39,7 @@ the numerical type of its elements:</p>
 <span class=""go"">      dtype=[(&#39;x&#39;, &#39;&lt;i4&#39;), (&#39;y&#39;, &#39;&lt;f8&#39;)])</span>
 </pre></div>
 </div>
-<p>Fast element-wise operations, called a <a class=""reference internal"" href=""#term-ufunc""><span class=""xref std std-term"">ufunc</span></a>, operate on arrays.</p>
+<p>Fast element-wise operations, called a <a class=""reference internal"" href=""https://numpy.org/doc/stable/glossary.html#term-ufunc""><span class=""xref std std-term"">ufunc</span></a>, operate on arrays.</p>
 </dd>"
 "<dt id=""term-array-like"">array_like</dt>"|"<dd><p>Any sequence that can be interpreted as an ndarray.  This includes
 nested lists, tuples, scalars and existing arrays.</p>
@@ -75,7 +75,7 @@ micro-processors and used for transmission of data over network protocols.</p>
 <span class=""go"">       [5, 6]])</span>
 </pre></div>
 </div>
-<p>See <a class=""reference internal"" href=""user/basics.broadcasting.html#module-numpy.doc.broadcasting"" title=""numpy.doc.broadcasting""><code class=""xref py py-obj docutils literal notranslate""><span class=""pre"">numpy.doc.broadcasting</span></code></a> for more information.</p>
+<p>See <a class=""reference internal"" href=""https://numpy.org/doc/stable/user/basics.broadcasting.html#module-numpy.doc.broadcasting"" title=""numpy.doc.broadcasting""><code class=""xref py py-obj docutils literal notranslate""><span class=""pre"">numpy.doc.broadcasting</span></code></a> for more information.</p>
 </dd>"
 "<dt id=""term-c-order"">C order</dt>"|"<dd><p>See <em class=""xref py py-obj"">row-major</em></p>
 </dd>"
@@ -140,13 +140,13 @@ be used as keys.</p>
 <p>For more information on dictionaries, read the
 <a class=""reference external"" href=""https://docs.python.org/tutorial/"">Python tutorial</a>.</p>
 </dd>"
-"<dt id=""term-field"">field</dt>"|"<dd><p>In a <a class=""reference internal"" href=""#term-structured-data-type""><span class=""xref std std-term"">structured data type</span></a>, each sub-type is called a <em class=""xref py py-obj"">field</em>.
+"<dt id=""term-field"">field</dt>"|"<dd><p>In a <a class=""reference internal"" href=""https://numpy.org/doc/stable/glossary.html#term-structured-data-type""><span class=""xref std std-term"">structured data type</span></a>, each sub-type is called a <em class=""xref py py-obj"">field</em>.
 The <em class=""xref py py-obj"">field</em> has a name (a string), a type (any valid dtype), and
-an optional <em class=""xref py py-obj"">title</em>. See <a class=""reference internal"" href=""reference/arrays.dtypes.html#arrays-dtypes""><span class=""std std-ref"">Data type objects (dtype)</span></a></p>
+an optional <em class=""xref py py-obj"">title</em>. See <a class=""reference internal"" href=""https://numpy.org/doc/stable/reference/arrays.dtypes.html#arrays-dtypes""><span class=""std std-ref"">Data type objects (dtype)</span></a></p>
 </dd>"
 "<dt id=""term-fortran-order"">Fortran order</dt>"|"<dd><p>See <em class=""xref py py-obj"">column-major</em></p>
 </dd>"
-"<dt id=""term-flattened"">flattened</dt>"|"<dd><p>Collapsed to a one-dimensional array. See <a class=""reference internal"" href=""reference/generated/numpy.ndarray.flatten.html#numpy.ndarray.flatten"" title=""numpy.ndarray.flatten""><code class=""xref py py-obj docutils literal notranslate""><span class=""pre"">numpy.ndarray.flatten</span></code></a>
+"<dt id=""term-flattened"">flattened</dt>"|"<dd><p>Collapsed to a one-dimensional array. See <a class=""reference internal"" href=""https://numpy.org/doc/stable/reference/generated/numpy.ndarray.flatten.html#numpy.ndarray.flatten"" title=""numpy.ndarray.flatten""><code class=""xref py py-obj docutils literal notranslate""><span class=""pre"">numpy.ndarray.flatten</span></code></a>
 for details.</p>
 </dd>"
 "<dt id=""term-homogenous"">homogenous</dt>"|"<dd><p>Describes a block of memory comprised of blocks, each block comprised of
@@ -281,7 +281,7 @@ method called <code class=""docutils literal notranslate""><span class=""pre"">r
 </dd>"
 "<dt id=""term-ndarray"">ndarray</dt>"|"<dd><p>See <em>array</em>.</p>
 </dd>"
-"<dt id=""term-record-array"">record array</dt>"|"<dd><p>An <a class=""reference internal"" href=""#term-ndarray""><span class=""xref std std-term"">ndarray</span></a> with <a class=""reference internal"" href=""#term-structured-data-type""><span class=""xref std std-term"">structured data type</span></a> which has been
+"<dt id=""term-record-array"">record array</dt>"|"<dd><p>An <a class=""reference internal"" href=""https://numpy.org/doc/stable/glossary.html#term-ndarray""><span class=""xref std std-term"">ndarray</span></a> with <a class=""reference internal"" href=""https://numpy.org/doc/stable/glossary.html#term-structured-data-type""><span class=""xref std std-term"">structured data type</span></a> which has been
 subclassed as <code class=""docutils literal notranslate""><span class=""pre"">np.recarray</span></code> and whose dtype is of type <code class=""docutils literal notranslate""><span class=""pre"">np.record</span></code>,
 making the fields of its data type to be accessible by attribute.</p>
 </dd>"
@@ -348,11 +348,11 @@ individually:</p>
 </pre></div>
 </div>
 </dd>"
-"<dt id=""term-structure"">structure</dt>"|"<dd><p>See <a class=""reference internal"" href=""#term-structured-data-type""><span class=""xref std std-term"">structured data type</span></a></p>
+"<dt id=""term-structure"">structure</dt>"|"<dd><p>See <a class=""reference internal"" href=""https://numpy.org/doc/stable/glossary.html#term-structured-data-type""><span class=""xref std std-term"">structured data type</span></a></p>
 </dd>"
 "<dt id=""term-structured-data-type"">structured data type</dt>"|"<dd><p>A data type composed of other datatypes</p>
 </dd>"
-"<dt id=""term-subarray-data-type"">subarray data type</dt>"|"<dd><p>A <a class=""reference internal"" href=""#term-structured-data-type""><span class=""xref std std-term"">structured data type</span></a> may contain a <a class=""reference internal"" href=""#term-ndarray""><span class=""xref std std-term"">ndarray</span></a> with its
+"<dt id=""term-subarray-data-type"">subarray data type</dt>"|"<dd><p>A <a class=""reference internal"" href=""https://numpy.org/doc/stable/glossary.html#term-structured-data-type""><span class=""xref std std-term"">structured data type</span></a> may contain a <a class=""reference internal"" href=""https://numpy.org/doc/stable/glossary.html#term-ndarray""><span class=""xref std std-term"">ndarray</span></a> with its
 own dtype and shape:</p>
 <div class=""doctest highlight-default notranslate""><div class=""highlight""><pre><span></span><span class=""gp"">&gt;&gt;&gt; </span><span class=""n"">dt</span> <span class=""o"">=</span> <span class=""n"">np</span><span class=""o"">.</span><span class=""n"">dtype</span><span class=""p"">([(</span><span class=""s1"">&#39;a&#39;</span><span class=""p"">,</span> <span class=""n"">np</span><span class=""o"">.</span><span class=""n"">int32</span><span class=""p"">),</span> <span class=""p"">(</span><span class=""s1"">&#39;b&#39;</span><span class=""p"">,</span> <span class=""n"">np</span><span class=""o"">.</span><span class=""n"">float32</span><span class=""p"">,</span> <span class=""p"">(</span><span class=""mi"">3</span><span class=""p"">,))])</span>
 <span class=""gp"">&gt;&gt;&gt; </span><span class=""n"">np</span><span class=""o"">.</span><span class=""n"">zeros</span><span class=""p"">(</span><span class=""mi"">3</span><span class=""p"">,</span> <span class=""n"">dtype</span><span class=""o"">=</span><span class=""n"">dt</span><span class=""p"">)</span>
@@ -362,7 +362,7 @@ own dtype and shape:</p>
 </div>
 </dd>"
 "<dt id=""term-title"">title</dt>"|"<dd><p>In addition to field names, structured array fields may have an
-associated <a class=""reference internal"" href=""user/basics.rec.html#titles""><span class=""std std-ref"">title</span></a> which is an alias to the name and is
+associated <a class=""reference internal"" href=""https://numpy.org/doc/stable/user/basics.rec.html#titles""><span class=""std std-ref"">title</span></a> which is an alias to the name and is
 commonly used for plotting.</p>
 </dd>"
 "<dt id=""term-tuple"">tuple</dt>"|"<dd><p>A sequence that may contain a variable number of types of any
@@ -402,14 +402,14 @@ be assigned to the contents of a tuple:</p>
 </pre></div>
 </div>
 </dd>"
-"<dt id=""term-ufunc"">ufunc</dt>"|"<dd><p>Universal function.  A fast element-wise, <a class=""reference internal"" href=""#term-vectorization""><span class=""xref std std-term"">vectorized</span></a> array operation.  Examples include <code class=""docutils literal notranslate""><span class=""pre"">add</span></code>, <code class=""docutils literal notranslate""><span class=""pre"">sin</span></code> and
+"<dt id=""term-ufunc"">ufunc</dt>"|"<dd><p>Universal function.  A fast element-wise, <a class=""reference internal"" href=""https://numpy.org/doc/stable/glossary.html#term-vectorization""><span class=""xref std std-term"">vectorized</span></a> array operation.  Examples include <code class=""docutils literal notranslate""><span class=""pre"">add</span></code>, <code class=""docutils literal notranslate""><span class=""pre"">sin</span></code> and
 <code class=""docutils literal notranslate""><span class=""pre"">logical_or</span></code>.</p>
 </dd>"
 "<dt id=""term-vectorization"">vectorization</dt>"|"<dd><p>Optimizing a looping block by specialized code. In a traditional sense,
 vectorization performs the same operation on multiple elements with
 fixed strides between them via specialized hardware. Compilers know how
 to take advantage of well-constructed loops to implement such
-optimizations. NumPy uses <a class=""reference internal"" href=""user/whatisnumpy.html#whatis-vectorization""><span class=""std std-ref"">vectorization</span></a>
+optimizations. NumPy uses <a class=""reference internal"" href=""https://numpy.org/doc/stable/user/whatisnumpy.html#whatis-vectorization""><span class=""std std-ref"">vectorization</span></a>
 to mean any optimization via specialized code performing the same
 operations on multiple elements, typically achieving speedups by
 avoiding some of the overhead in looking up and converting the elements.</p>
