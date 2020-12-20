@@ -1,3 +1,16 @@
+"Introduction (NumPy Glossary)"|"<p>This deck has taken definitions outlined in <a href=""https://numpy.org/doc/stable/glossary.html"">NumPy's Glossary</a> and put them into a form which can be easily learnt/revised using <a href=""https://apps.ankiweb.net/"">Anki</a> a cross platform app specifically designed for long term knowledge retention.</p>
+<h2>Notes</h2>
+<p>Please note the modifications which have been made &amp; where you can find updates.</p>
+<ol align=""left"">
+<li>The front of every card has ""(NumPy Glossary)"" appended to the end so that if you have any other words in your collection, the NumPy's Glossary definition will still be added when importing it.</li>
+<li>The original relative URLs have been made into full URLs so they are clickable within Anki.</li>
+<li>Any updates, translations or corrections to the deck will be available at <a href=""https://github.com/darigovresearch/NumPy-Glossary-Flashcards""></a><a href=""https://github.com/darigovresearch/NumPy-Glossary-Flashcards"">https://github.com/darigovresearch/NumPy-Glossary-Flashcards</a> so do return periodically to check if you have the latest version.</li>
+</ol>
+<p>Feel free to share the deck and give the repository a star so more people are likely to see this work and can get the most out of it.</p>
+<h2>License</h2>
+<p>Unless otherwise specified, everything in this deck is covered by the following licence:</p>
+<p>This work was based on the <em><strong>NumPy Glossary</strong></em> by <a href=""https://numpy.org/doc/stable/glossary.html"">NumPy Developers</a>. Content is available under a <a href=""https://github.com/numpy/numpy/blob/master/LICENSE.txt"">BSD-3-Clause License</a>.</p>
+<p>To see this work in full go to <a href=""https://numpy.org/doc/stable/glossary.html"">https://numpy.org/doc/stable/glossary.html</a></p>"
 "<dt id=""term-along-an-axis"">along an axis (NumPy Glossary)</dt>"|"<dd><p>Axes are defined for arrays with more than one dimension.  A
 2-dimensional array has two corresponding axes: the first running
 vertically downwards across rows (axis 0), and the second running
