@@ -40,3 +40,15 @@ Unless otherwise specified, everything in this repository is covered by the foll
 This work was based on the ***NumPy Glossary*** by [NumPy Developers](https://numpy.org/doc/stable/glossary.html). Content is available under a [BSD-3-Clause License](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
 
 To see this work in full go to https://numpy.org/doc/stable/glossary.html
+
+----
+
+<b>
+<div align="center">
+    The creation, maintenance and continued development of this project is made possible
+    <br>
+    thanks to our <a href="http://patreon.com/darigovresearch">Patreon</a> and <a href="https://www.darigovresearch.com/donate">Direct</a> supporters!
+    <br>
+    Consider joining them if you think this project has earned it!
+</div>
+</b>
